@@ -114,7 +114,10 @@ namespace StarterAssets
 		{
 			JumpAndGravity();
 			GroundedCheck();
-			Move();
+			if (Input.GetKey(KeyCode.E) == false)
+			{
+				Move();
+			}
 		}
 
 		private void LateUpdate()
