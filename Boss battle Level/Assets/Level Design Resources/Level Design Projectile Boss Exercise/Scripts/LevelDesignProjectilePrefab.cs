@@ -15,7 +15,7 @@ public class LevelDesignProjectilePrefab : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("MainCamera");
         //destroys the projectile after projectileLifetime amount of time
         Destroy(gameObject, projectileLifetime);
     }

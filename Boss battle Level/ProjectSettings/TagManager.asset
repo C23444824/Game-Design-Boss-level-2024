@@ -8,6 +8,8 @@ TagManager:
   - Boss
   - Bat
   - Batted
+  - Crystal
+  - Projectile
   layers:
   - Default
   - TransparentFX
