@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CinemachineTarget
   - Boss
+  - Bat
+  - Batted
   layers:
   - Default
   - TransparentFX

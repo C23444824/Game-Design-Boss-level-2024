@@ -71,9 +71,9 @@ namespace StarterAssets
 		private CharacterController _controller;
 		private StarterAssetsInputs _input;
 		private GameObject _mainCamera;
+		public GameObject bat;
 
 		private const float _threshold = 0.01f;
-
 		private bool IsCurrentDeviceMouse
 		{
 			get
@@ -118,7 +118,15 @@ namespace StarterAssets
 			{
 				Move();
 			}
-		}
+			if (Input.GetMouseButtonDown(0))
+			{
+				bat.GetComponent<BoxCollider>().enabled = true;
+			}
+            if (Input.GetMouseButtonUp(0))
+            {
+                bat.GetComponent<BoxCollider>().enabled = false;
+            }
+        }
 
 		private void LateUpdate()
 		{
