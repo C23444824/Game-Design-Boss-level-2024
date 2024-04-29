@@ -136,7 +136,7 @@ MonoBehaviour:
   projectileCount: 3
   fireCooldown: 3
   canFire: 1
-  projectileSpeed: 10
+  projectileSpeed: 5
   projectileLifetime: 3
   projectileImpactRadius: 5
   bossViewDistance: 10000

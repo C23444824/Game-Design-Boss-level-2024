@@ -6,7 +6,7 @@ public class CrystalScript : MonoBehaviour
 {
     public Material activatedMaterial;
     public GameObject lowerHalf;
-    private bool crystalTriggered;
+    public bool crystalTriggered;
     // Start is called before the first frame update
     void Start()
     {
